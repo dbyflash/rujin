@@ -1,0 +1,125 @@
+
+.bordertable{
+   border-color:#99BBE8;
+   border-style:dashed;
+   border-width:0px; 
+   margin:0; 
+   border-right-width:1px;
+   border-bottom-width:1px;
+   
+}
+.bordertable tr{
+   height: 35px;
+}
+.bordertable td,th{
+   padding:3px;
+   border-color:#99BBE8;
+   border-style:dashed; 
+   border-width:0px;
+   border-top-width:1px; 
+   border-left-width:1px;
+}
+.bordertable th{
+   text-align: right;
+}
+
+
+
+
+.bordertable input{
+  border: 1px solid ;
+  border-color: #d3d3d3;
+  line-height: 20px;
+  height: 20px;
+}
+
+
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 12px;
+}
+
+
+.table th,.table td {
+	border: 1px solid #8CACBB;
+	padding: 0.3em 0.7em;
+	text-align: left;
+}
+
+.table input{
+   border: 1px solid #d3d3d3;
+   height: 18px;
+
+}
+
+.newtable th{ 
+  text-align: center;
+}
+
+.line_split{
+width:100%; 
+border-top:1px silver dashed;
+border-color:#99BBE8;
+margin-top: 3px;
+margin-bottom: 3px;
+height: 2px;
+}
+
+
+.table th {
+	background: #F8F8F8;
+	text-align: center;
+}
+
+.table td {
+	background: #fff;
+	text-align: left;
+}
+
+.table thead th {
+	text-align: center;
+}
+
+.table tbody th {
+	text-align: right;
+}
+
+.table tr:hover {
+	background-color: #f6fafd;
+}
+
+.table td:hover {
+	background-color: #f9feff;
+}
+
+.form th {
+	text-align: right;
+}
+
+.form th,.form td {
+	padding: 0.1em 0.3em;
+	border: 1px solid #D1D7DC;
+}
+
+.form input,.form select,.form textarea {
+	width: 150px;
+}
+
+.form input[type='checkbox'],.form input[type='radio'] {
+	width: 20px;
+}
+
+fieldset {
+	border: 1px dotted #D1D7DC;
+}
+
+legend {
+	border: 1px dotted #D1D7DC;
+	font-size: small;
+}
+
+a{text-decoration: none;}
+a:link {text-decoration:none;} //未访问：蓝色、无下划线   
+a:visited {text-decoration:none;} //已访问：紫色、无下划线   
+a:hover { text-decoration:underline;} //鼠标移近：红色、下划线   

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<filter>
+		<filter-name>perssoft</filter-name>
+		<filter-class>com.perssoft.core.PerssoftFilter</filter-class>
+		<init-param>
+			<param-name>configClass</param-name>
+			<param-value>com.perssoft.framework.config.WebConfig</param-value>
+		</init-param>
+	</filter>
+	
+	 <session-config>
+  		<session-timeout>1440</session-timeout>
+ 	 </session-config>
+	
+	<filter-mapping>
+		<filter-name>perssoft</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

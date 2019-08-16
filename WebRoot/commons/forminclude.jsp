@@ -1,0 +1,1 @@
+<input type="hidden" name="perssoft_token" value="${perssoft_token}" />

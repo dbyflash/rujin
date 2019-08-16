@@ -1,0 +1,72 @@
+body {
+	font-size:12px;
+	margin:0;
+}
+img {
+	border:0px;
+}
+
+/*统一设定ul ,li样式*/
+ul , li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+li {
+	line-height:21px;
+}
+
+/*单元格视图样式*/
+#content {
+	width:950px;
+	margin:0 auto;
+	border-left: 0px solid #CCDDEE;
+	float:left;
+}
+#content .weekTitle {
+	color:#53504D;
+	background:#F1FFE3;
+	height:20px;
+	border-bottom: 1px solid #B8E78B;
+}
+#content .weekTitle td {
+	text-align:center;
+}
+#content #render {
+	color:#6A6A6B;
+}
+#content #render td {
+	height:90px;
+	vertical-align: top;
+	border-right: 1px solid #CCDDEE;
+	border-bottom: 1px solid #CCDDEE;
+}
+.dayStyle {
+	color:#6A6A6B;
+	padding-right:2px;
+	padding-top:2px;
+	height:15px;
+	background:#E8EEF7;
+	text-align:right;
+	display:block;
+}
+/*标示当前天*/
+.currDay {
+	background:#FFFFCC;
+}
+/*标识签到天*/
+.signDay{
+	background:#71C671;
+}
+/*标识未签到天*/
+.nosignDay{
+	background:#CD2626;
+}
+/*标识今天签到*/
+.currSignDay{
+	background:#006400;
+}
+.disableText {
+	color:#BABDC4;
+}

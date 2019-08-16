@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="rujin"
+  id="myeclipse.1406191887402"
+  context-root="/rujin"
+  j2ee-spec="5.0"
+  archive="rujin.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
