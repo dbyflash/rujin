@@ -3,22 +3,12 @@
 <html>
 	<head>
 <%@ include file="/commons/meta.jsp"%>
-<script src="${ctx}/js/vuejs/dist/vue.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
 
 $(function() {
-	var app3 = new Vue({
-		  el: '#app-3',
-		  data: {
-		    seen: false
-		  }
-		});
-	setTimeout(function(){
-		app3.seen=true;
-	}, 2000)
-	
+
 	
 	//------------------add-----------------------------
 	$("#customer_add_btn").click(function(){
@@ -166,11 +156,6 @@ $(function() {
 		</table>
   </div>
  
-<div region="center" border="false" >
-
-	  <div id="app-3">
-  <p v-if="seen">现在你看到我了</p>
-</div>
 
 
 
